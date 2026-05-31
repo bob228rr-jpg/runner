@@ -342,7 +342,7 @@ h2 {
 .buy {
   overflow: hidden;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
@@ -385,8 +385,11 @@ h2 {
 }
 
 .about {
-  min-height: 720px;
+  min-height: 660px;
+  background-color: #d8e4d5;
   background-image: url("assets/raw/about.png");
+  background-position: center center;
+  background-size: contain;
 }
 
 .about::before {
@@ -472,9 +475,11 @@ h2 {
   gap: 34px;
   align-items: center;
   width: 100%;
-  min-height: 720px;
+  min-height: 660px;
   margin: 0;
+  background-color: #101a1c;
   background-image: url("assets/raw/the-feeling.png");
+  background-size: contain;
 }
 
 .feeling::before {
@@ -560,8 +565,10 @@ h2 {
 }
 
 .why {
-  min-height: 760px;
+  min-height: 660px;
+  background-color: #202220;
   background-image: url("assets/raw/why-now.png");
+  background-size: contain;
 }
 
 .why-card {
