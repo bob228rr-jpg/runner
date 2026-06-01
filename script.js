@@ -1,4 +1,4 @@
-const CONTRACT_ADDRESS = "CA COMING SOON";
+const CONTRACT_ADDRESS = "zGyPFLyRbKBTbAaGd3PuWZEKQ13WENyAk4aGWPfpump";
 
 const toast = document.querySelector(".copy-toast");
 const copyButtons = document.querySelectorAll("[data-copy-ca]");
@@ -16,7 +16,7 @@ copyButtons.forEach((button) => {
       fallback.remove();
     }
 
-    toast.textContent = CONTRACT_ADDRESS === "CA COMING SOON" ? "CA coming soon" : "CA copied";
+    toast.textContent = CONTRACT_ADDRESS === "zGyPFLyRbKBTbAaGd3PuWZEKQ13WENyAk4aGWPfpump" ? "CA coming soon" : "CA copied";
     toast.classList.add("is-visible");
     window.setTimeout(() => toast.classList.remove("is-visible"), 1500);
   });
